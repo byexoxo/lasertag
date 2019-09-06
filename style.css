@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eee;
+  background-color: #333;
+}
+
+div {
+  width: 150px;
+  height: 50px;
+}
+
+#input {
+  border: 1px solid #333;
+  height: 24px;
+  padding: 4px;
+}
+
+#button {
+  height: 2rem;
+  width: 4rem;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  margin-top: 32px;
+}
