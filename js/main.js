@@ -1,8 +1,8 @@
-let score = document.querySelector("#score");
-let input = document.querySelector("#input");
-let button = document.querySelector("#button");
-let count = 0;
-let length = 0;
+var score = document.getElementById("score");
+var input = document.getElementById("input");
+var button = document.getElementById("button");
+var count = 0;
+var length = 0;
 
 document.addEventListener("click", () => input.focus());
 
