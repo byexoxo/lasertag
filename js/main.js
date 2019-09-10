@@ -9,10 +9,10 @@ document.addEventListener("click", function() {
 });
 
 input.addEventListener("input", function() {
-  length = input.value.length;
+  length = input.innerHTML.length;
   if (length > 1) count += 1;
   score.innerHTML = count;
-  input.value = "";
+  input.innerHTML = "";
 });
 
 button.addEventListener("click", function() {
